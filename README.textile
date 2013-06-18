@@ -1,0 +1,20 @@
+h1. dvbrecord
+
+h2. Description
+
+p. dvbrecord is a command line tool to record DVB transmissions onto your hard drive. It is meant to be scheduled with @at@ to offer a minimal PVR solution.
+
+p. It is a wrapper for cvlc (command line VLC). This is not the "dvbrecord utility":http://www.linuxtv.org/wiki/index.php/Dvbrecord previously bundled with dvb-apps.
+
+
+h2. Dependencies
+
+* dvb-apps
+* vlc (Videolan VLC)
+
+
+h2. Instructions
+
+p. Edit @dvbrecord.sh@ to set the environment variables. Type @./dvbrecord.sh@ (without arguments) for help.
+
+
